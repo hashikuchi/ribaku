@@ -18,6 +18,7 @@
 
     "web_accessible_resources":[
 	"btn.gif",
-	"explosion.gif"
+	"explosion.gif",
+	"bomb.mp3"
     ]
 }
