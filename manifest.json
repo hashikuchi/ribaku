@@ -1,0 +1,23 @@
+{
+    "name":"ria-juu explosion",
+    "version":"0.1",
+    "manifest_version":2,
+
+    "description":"facebookでリア充を爆発させます",
+
+    "permissions":[
+	"tabs","http://*/*"
+    ],
+
+    "content_scripts":[
+	{
+	    "matches":["https://www.facebook.com/*"],
+	    "js":["jquery-1.10.2.min.js","ribaku.js"]
+	}
+    ],
+
+    "web_accessible_resources":[
+	"btn.gif",
+	"explosion.gif"
+    ]
+}
