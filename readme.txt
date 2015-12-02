@@ -1,2 +1,1 @@
-This is read me.
-This line is for master branch.
+Chrome extention to "explode" posts on Facebook.
